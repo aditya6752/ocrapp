@@ -28,6 +28,7 @@ async def perform_ocr(image: UploadFile = File(...)):
     print(text)
     return {"filename": image.filename ,"text": text}
 
+
 def _save_file_to_disk(uploaded_file, path="."):
     # print(uploaded_file.filename)
     temp_file = os.path.join(path, uploaded_file.filename)
