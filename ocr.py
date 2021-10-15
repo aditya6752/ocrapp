@@ -12,7 +12,7 @@ async def read_image(img_path, lang='eng'):
     :text: str, converted text from image
     """
     # print(img_path)
-    pytesseract.pytesseract.tesseract_cmd = r'C:\Program Files\Tesseract-OCR\tesseract.exe'
+    # pytesseract.pytesseract.tesseract_cmd = r'C:\Program Files\Tesseract-OCR\tesseract.exe'
     # print(pytesseract.image_to_string(Image.open(img_path)))
 
     return pytesseract.image_to_string(Image.open(img_path))
