@@ -1,2 +1,8 @@
-tesseract-ocr 
+libgl1
+libsm6
+libxrender1
+libfontconfig1
+libarchive-dev
+libtesseract-dev
+tesseract-ocr
 tesseract-ocr-eng
